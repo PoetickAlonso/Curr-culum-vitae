@@ -1,0 +1,160 @@
+
+html {
+    font-size: 62.5%;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: #121f3d;
+
+
+}
+
+h1 {
+    font-size: 6.0rem;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 10px 0;
+    padding: 0%;
+    color: #c5911e;
+}
+
+.head-profile {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #92adf7;
+    margin-top: -30px;
+    border-radius: 15px;
+}
+
+.head-profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    align-items: center;  
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul {
+    list-style: none;
+    font-weight: bold;
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 2%;
+    background: whitesmoke;
+}
+
+p {
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace; 
+    background: rgb(9, 8, 50);
+    color: white;
+    text-align: center;
+    box-shadow: 35px 10px 5px 0px rgb(70, 105, 203);
+    border-radius: 0 10px;
+}
+
+.links h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 2.6rem;
+    color: rgb(43, 158, 43);
+}
+
+.links a {
+    display: flex;
+    justify-content: center;
+    font-size: 2.6rem;
+    text-decoration: none;
+    background-color: rgb(53, 30, 187);
+    color: white;
+}
+
+.Cursos-certificaciones ul {
+    background: linear-gradient(70deg, rgb(66, 33, 100), rgb(227, 218, 225));
+    border-radius: 15px;
+}
+
+a:hover {
+    cursor: pointer;
+} 
+.title {
+    display: none;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    color: blanchedalmond;
+   
+}
+
+footer img{
+    width: 25px;
+    height: 25px;
+    background-position: center;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+footer a {
+    font-size: 1.4rem;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.head-izq {
+    border-radius: 5px;
+    background: rgb(87, 2, 87);
+    color: aliceblue;
+}
+
+.head-izq a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+
+}
+
+@media (min-width: 640px) {
+    .head-inic {
+        display: none;
+    }
+
+    .title {
+            display: block;
+        }
+
+  .dates-obj {
+    display: flex;
+  }
+
+  .head-der {
+    margin-left: 15px;
+  }
+
+  .Cursos-certificaciones ul {
+    align-items: center;
+    font-size: 1.8rem;
+  }
+
+  footer a {
+    font-size: 2.0rem;
+  }
+  footer img {
+    width: 30px;
+    height: 30px;
+    margin: 0 0 0 15px;
+  }
+
+
+
+
+}
